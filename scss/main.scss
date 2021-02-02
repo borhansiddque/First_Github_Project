@@ -1,0 +1,22 @@
+$primary-color: #fff;
+$bg-color: #000;
+
+body{
+    background: $bg-color;
+}
+
+header{
+    background: $primary-color;
+    ul{
+        
+        li{
+            list-style: none;
+            display: inline-block;
+            a{
+                text-decoration: none;
+                color: $bg-color;
+                padding: 0.5rem;
+            }
+        }
+    }
+}
